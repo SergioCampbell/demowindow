@@ -1,6 +1,11 @@
 # demowindow
 
-This app was made with React, React-router-dom v6, typescript, webpack and babel.
+This app was made with:
+- React
+- React-router-dom v6
+- typescript
+- webpack
+- Babel
 
 # Configuration
 Make sure to run the follow code to install all dependencies:
