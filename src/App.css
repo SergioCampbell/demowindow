@@ -1,0 +1,246 @@
+/*==============================
+        Display header
+==============================*/
+.header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  margin: 20px auto;
+  gap: 8px;
+}
+
+.header__img-fluid {
+  background: var(--bg);
+  max-height: 40px;
+}
+
+.header__title--one {
+  color: var(--colorOne);
+  font-weight: 600;
+}
+
+.header__title--two {
+  color: var(--colorTwo);
+  font-weight: 600;
+  margin-left: -8px;
+}
+
+/*==============================
+        Display footer
+==============================*/
+
+.footer__container {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: var(--footerColor);
+}
+
+.footer__container a {
+  color: var(--anchor);
+}
+
+/*==============================
+        Display signin
+==============================*/
+
+.signIn__form--container  {
+  display: flex;
+  flex-direction: column;
+  margin: 0 300px;
+}
+
+.signIn__form--wapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.signIn__form--title {
+  color: var(--colorOne);
+  text-align: center;
+  margin-bottom: -20px;
+}
+
+.signIn__form--input {
+  border: solid 1px var(--colorTwo);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 12px;
+  width: 50%;
+}
+
+.signIn__form--password {
+  border: solid 1px var(--colorTwo);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+}
+
+.signIn__form--icon {
+  height: 50%;
+  width: 10%;
+  color: gray;
+  margin: -29px 0 0 160px;
+  cursor: pointer;
+}
+
+.signIn__form--color {
+  color: var(--colorOne);
+  margin-left: 90px;
+  font-size: 14px;
+}
+
+.signIn__form--label {
+  display: flex;
+  margin-top: 5px;
+  width: 50%;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.signIn__form--radial {
+  background-color: var(--colorOne);
+  margin: 20px auto;
+}
+
+.signIn__form--radial:before {
+  background-color: var(--colorOne);
+}
+
+.signIn__form--radial-value {
+  font-size: smaller;
+  font-weight: 400;
+  padding-left: 4px;
+}
+
+.sigIn__form--button {
+  background-color: var(--btn-opacity);
+  color: var(--bg);
+  border: solid;
+  border-radius: 50px;
+  margin: 18px;
+  padding: 10px 10vh;
+  font-size: 15px;
+  width: 50%;
+}
+
+.sigIn__form--button:hover {
+  background-color: var(--colorOne);
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+/*==============================
+        Display sign Up
+==============================*/
+
+.signup__form--container  {
+  display: flex;
+  flex-direction: column;
+  margin: 0 300px;
+  background-color: var(--bg-signup);
+}
+
+.signup__form--wapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.signup__form--title {
+  color: var(--colorOne);
+  text-align: center;
+  margin-bottom: -20px;
+}
+
+.signup__form--input {
+  border: solid 1px var(--colorTwo);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 12px;
+  width: 50%;
+}
+
+.signup__form--input-check {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.signup__form--password {
+  border: solid 1px var(--colorTwo);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+}
+
+.signup__form--icon {
+  height: 30px;
+  width: 38px;
+  color: gray;
+  margin: 4px 0 0 -43px;
+  cursor: pointer;
+}
+
+.signup__form--color {
+  color: var(--colorOne);
+  font-size: 14px;
+}
+
+.signup__form--label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+}
+
+.signup__form--radial {
+  background-color: var(--colorOne);
+  margin: 20px auto;
+}
+
+.signup__form--radial:before {
+  background-color: var(--colorOne);
+}
+
+.signup__form--radial-value {
+  font-size: smaller;
+  font-weight: 400;
+  padding-left: 4px;
+}
+
+.signup__form--button {
+  background-color: var(--btn-opacity);
+  color: var(--bg);
+  border: solid;
+  border-radius: 50px;
+  margin: 18px;
+  padding: 10px 10vh;
+  font-size: 15px;
+  width: 50%;
+}
+
+.signup__form--button:hover {
+  background-color: var(--colorOne);
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+.signup__form--select {  
+  border: solid 1px var(--colorOne);
+  border-color: var(--colorOne);
+  color: var(--colorOne);
+  border-radius: 20px;
+  margin: 12px;
+  padding: 10px 60px;
+  background-color: var(--bg);
+  width: 50%;
+}

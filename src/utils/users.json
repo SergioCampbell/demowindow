@@ -1,0 +1,11 @@
+{
+    "users" : [
+        {
+            "email": "demo@demo.demo",
+            "password": "password",
+            "retypePassword": "password",
+            "country": "Colombia",
+            "languaje": "Spanish"
+        }
+    ]
+}

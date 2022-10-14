@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Nanum Gothic';
+  src: url('./assets/fonts/nanum-gothic-v21-latin-700.woff2') format('woff2'),
+  url('./assets/fonts/nanum-gothic-v21-latin-700.woff') format('woff');
+  font-weight: 700;
+  font-size: normal;
+}
+
+:root{
+
+  /*colors*/
+  --bg: white;
+  --bg-signup: #f8f3ff;
+  --colorOne: #5902EC;
+  --colorTwo: #B2B1B9;
+  --anchor: var(--colorOne);
+  --footerColor: #4a4a4a;
+  --btn-opacity: #5902ec78;
+
+
+  /*font*/
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+hr {
+  color: white;
+  width: 100%;
+}
